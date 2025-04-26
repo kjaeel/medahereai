@@ -1736,7 +1736,7 @@ body{
 	Start Team CSS
 ======================*/ 
 .team{
-	background-image:url('img/testi-bg.jpg');
+	/* background-image:url('img/testi-bg.jpg'); */
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -4334,3 +4334,74 @@ body{
 	  width: 100%;
 	}
   }
+
+  
+  .about-section {
+	padding: 40px;
+	background: #fff;
+	font-family: 'Arial', sans-serif;
+	text-align: center; /* Center text within the section */
+  }
+  
+  h1 {
+	color: #0B2B55;
+	font-size: 28px;
+	margin-bottom: 20px;
+  }
+  
+  .highlight {
+	font-weight: bold;
+	color: #0B2B55;
+  }
+  
+  p {
+	color: #333;
+	font-size: 16px;
+	margin-bottom: 30px; /* Optional: space between the paragraph and the leadership section */
+  }
+  
+  .leadership-team, .advisory-team {
+	display: flex;
+	justify-content: center; /* Centers the content horizontally */
+	gap: 20px;
+	flex-wrap: wrap; /* Allows items to wrap if necessary */
+	margin-top: 40px;
+  }
+  
+  .advisory-left, .advisory-right {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center; /* Center the members inside their respective columns */
+  }
+  
+  .member-card {
+	display: flex;
+	align-items: center;
+	background: #f5f5f5;
+	border-radius: 10px;
+	padding: 15px;
+	gap: 15px;
+	margin-bottom: 20px; /* Add some spacing between member cards */
+	max-width: 320px; /* Optional: limit the width of member cards */
+	width: 100%; /* Allow the card to be flexible */
+  }
+  
+  .member-card img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	object-fit: cover;
+  }
+  
+  .member-info h3 {
+	margin: 0;
+	font-size: 18px;
+	font-weight: bold;
+  }
+  
+  .member-info p {
+	margin: 5px 0 0;
+	font-size: 14px;
+  }
+  
