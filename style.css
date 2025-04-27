@@ -587,13 +587,13 @@ body{
 	Start Hero Area CSS
 =============================*/
 .slider .single-slider {
-	height: 600px;
+	height: 500px;
 	background-size: cover;
 	background-position: center;
 	background-repeat:no-repeat;
 }
 .slider .single-slider .text{
-	margin-top:120px;
+	margin-top:150px;
 }
 .slider.index2 .single-slider .text{
 	margin-top:150px;
@@ -605,6 +605,7 @@ body{
 	margin: 0;
 	padding: 0;
 	line-height: 42px;
+	margin-right: 20px;
 }
 .slider .single-slider h1 span{
 	color:#1a76d1;
